@@ -1,6 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.navbar-brand-name{
+    color: rgb(63, 60, 60);
+}
+.carousal-pic{
+    filter: brightness(30%);
+}
 /*--------------------
     media quiery
 --------------------*/
@@ -9,13 +15,21 @@ body{
     
  }
  @media only screen and (min-width:480px){
-     
+    .carousal-pic{
+        height: 500px;
+    }
  }
  @media only screen and (min-width:767px){
     .option{
         padding-top: 15px;
     }
+    .carousal-pic{
+        height: 600px;
+    }
+    .carousal-text{
+        padding-bottom: 100px;
+    }
  }
  @media only screen and (min-width:991px){
-  
+
  }
