@@ -84,16 +84,16 @@
     </section>
     <!-- our courses -->
     <section>
-      <div class="text-center m-5 px-5 ps-5">
+      <div class="text-center m-0 px-0 m-sm-0 px-sm-0 m-md-3 px-md-3 m-lg-5 px-lg-5 pb-3">
         <h1 class="fs-1 fw-bold">Discover Our Popular Courses</h1>
         <p class="fs-5">Education lead to acquire better skills and greater self-advocacy. Education improves skills such as literacy, develops effective habits, and may improve cognitive ability.</p>
       </div>
     </section>
     <!-- our course details -->
-    <section>
-      <div class="container">
-        <div class="row row-lg-cols-2 g-2">
-          <div class="col course-item-1 d-block d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-center">
+    <section class="mb-5">
+      <div class="container gap-5">
+        <div class="row row-lg-cols-2">
+          <div class="col course-item-1 d-block d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-center border border-1 g-2">
             <div>
               <img src="images/course/course-1.png" alt="">
             </div>
@@ -105,11 +105,11 @@
               <p class="text-primary fs-6 fw-bold">Price: $20</p>
             </div>
           </div>
-          <div class="col d-block d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-center">
+          <div class="col d-block d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-centerborder border border-1 g-2">
             <div>
               <img class="ps-0 ps-sm-0 ps-md-5 ps-lg-0" src="images/course/course-2.png" alt="">
             </div>
-            <div class="p-4">
+            <div class="pt-2 ps-sm-3 p-md-4 p-lg-4">
               <h3 class="fs-5 fw-semibold">Javascript Basic to advanced</h3>
               <p>
                 Create and control dynamic website content.
@@ -120,12 +120,12 @@
         </div>
       </div>
       <div class="container mt-2">
-        <div class="row row-lg-cols-2 g-2">
-          <div class="col d-block d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-center">
+        <div class="row row-lg-cols-2">
+          <div class="col d-block d-sm-flex d-md-flex d-lg-flex justify-content-center align-items-center border border-1 g-2">
             <div>
               <img class="ps-0 ps-sm-0 ps-md-5 ps-lg-0" src="images/course/course-3.png" alt="">
             </div>
-            <div class="p-4">
+            <div class="pt-2 ps-sm-3 p-md-4 p-lg-4">
               <h3 class="fs-5 fw-semibold">Fullstack Web Development</h3>
               <p>
                 Program browser & server (like using jQuery,PHP,ASP).
@@ -133,7 +133,7 @@
               <p class="text-primary fs-6 fw-bold">Price: $20</p>
             </div>
           </div>
-          <div class="col d-none d-lg-flex justify-content-center align-items-center ps-2">
+          <div class="col d-none d-lg-flex justify-content-center align-items-center border border-1 g-2 ps-2">
             <div>
               <img src="images/course/course-4.png" alt="">
             </div>
@@ -149,7 +149,7 @@
       </div>
       <div class="container my-2">
         <div class="row row-lg-cols-2">
-          <div class="col d-none d-lg-flex justify-content-center align-items-center">
+          <div class="col d-none d-lg-flex justify-content-center align-items-center border border-1 g-2">
             <div>
               <img src="images/course/course-5.png" alt="">
             </div>
@@ -161,7 +161,7 @@
               <p class="text-primary fs-6 fw-bold">Price: $20</p>
             </div>
           </div>
-          <div class="col d-none d-lg-flex justify-content-center align-items-center">
+          <div class="col d-none d-lg-flex justify-content-center align-items-center border border-1 g-2">
             <div>
               <img src="images/course/course-6.png" alt="">
             </div>
@@ -177,6 +177,48 @@
       </div>
       <div class="text-center py-3">
         <button class="btn btn-primary text-secondary text-light">See More Courses</button>
+      </div>
+    </section>
+    <!-- register modal -->
+    <section class="my-5">
+      <div class="d-lg-flex d-block row row-lg-cols-2 row-md-cols-1 row-sm-cols-1 row-cols-1 justify-content-center align-items-center bg-primary text-light border-0 rounded">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 registration-box p-lg-5 px-md-5 pt-md-4 pb-md-3 px-sm-5 pt-sm-4 pb-sm-3 p-2 text-center">
+          <h1>Ready to join?</h1>
+          <p>Start your Journey with us to have a better career and be more strong and a knowledgeable person.</p>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 registration-box py-lg-5 pe-md-3 pb-sm-3 pb-3 text-center">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-light text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Register Now
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title text-dark fw-bold" id="staticBackdropLabel">Fill the requirements, we will e-mail you soon about next step.</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Full name" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="E-mail address" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="selected course name" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"   data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">submit</button>
+               </div>
+             </div>
+           </div>
+          </div>
+        </div>
       </div>
     </section>
     </main>
