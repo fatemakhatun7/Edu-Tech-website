@@ -7,6 +7,13 @@ body{
 .carousal-pic{
     filter: brightness(30%);
 }
+.social-media{
+    gap: 20px;
+    font-size: 30px;
+    height: 40px;
+    padding-bottom: 70px;
+    cursor: pointer;
+}
 /*--------------------
     media quiery
 --------------------*/
@@ -18,6 +25,9 @@ body{
     .carousal-text{
         padding-bottom: 50px;
     }
+    .company-header{
+        visibility: hidden;
+    }
  }
  @media only screen and (min-width:480px){
     .carousal-pic{
@@ -25,6 +35,9 @@ body{
     }
     .carousal-text{
         padding-bottom: 100px;
+    }
+    .company-header{
+        visibility: hidden;
     }
  }
  @media only screen and (min-width:767px){
@@ -37,7 +50,12 @@ body{
     .carousal-text{
         padding-bottom: 150px;
     }
+    .company-header{
+        visibility: hidden;
+    }
  }
  @media only screen and (min-width:991px){
-
+    .company-header{
+        visibility: visible;
+    }
  }
