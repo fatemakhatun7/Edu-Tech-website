@@ -14,6 +14,9 @@ body{
     padding-bottom: 70px;
     cursor: pointer;
 }
+.bg-working{
+    background-color: rgb(232, 251, 253);
+}
 /*--------------------
     media quiery
 --------------------*/
@@ -28,6 +31,18 @@ body{
     .company-header{
         visibility: hidden;
     }
+    .see-more{
+        visibility: visible;
+        display: contents;
+    }
+    .extended-text{
+        visibility: hidden;
+        display: none;
+    }
+    .working-image{
+        width: 300px;
+        height: 500px;
+    }
  }
  @media only screen and (min-width:480px){
     .carousal-pic{
@@ -38,6 +53,18 @@ body{
     }
     .company-header{
         visibility: hidden;
+    }
+    .see-more{
+        visibility: visible;
+        display: contents;
+    }
+    .extended-text{
+        visibility: hidden;
+        display: none;
+    }
+    .working-image{
+        width: 450px;
+        height: 600px;
     }
  }
  @media only screen and (min-width:767px){
@@ -53,6 +80,18 @@ body{
     .company-header{
         visibility: hidden;
     }
+    .see-more{
+        visibility: visible;
+        display: contents;
+    }
+    .extended-text{
+        visibility: hidden;
+        display: none;
+    }
+    .working-image{
+        width: 300px;
+        height: 500px;
+    }
  }
  @media only screen and (min-width:991px){
     .company-header{
@@ -61,5 +100,17 @@ body{
     .course-item{
         width: 550px;
         height: 205px;
+    }
+    .see-more{
+        visibility: hidden;
+        display: none;
+    }
+    .extended-text{
+        visibility: visible;
+        display: contents;
+    }
+    .working-image{
+        width: 400px;
+        height: 600px;
     }
  }
